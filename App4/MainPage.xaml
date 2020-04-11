@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App4.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <!-- Place new controls here -->
+                <Label Text="Welcome to Xamarin.Forms!"
+                FontSize="24"
+                TextColor="Black"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="FillAndExpand" />
+        </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button 
+                    Text="Нажми на кнопку"                    
+                    FontSize="Body"
+                    TextColor="Aqua"
+                    BackgroundColor="Black"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    x:Name="StartButtnForCloseApp"
+                    Clicked="StartButtnForCloseApp_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
