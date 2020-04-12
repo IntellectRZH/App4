@@ -43,8 +43,8 @@ namespace App4
         private void StartButtnChangeLabel2Text_Clicked(object sender, EventArgs e)
         {
             StartLabel2.Text = "Измененный текст после нажатия кнопки";
-            if (StartLabel2.TextColor == Color.Red) StartLabel2.TextColor = Color.Green;
-            else StartLabel2.TextColor = Color.Red;
+            if (StartLabel2.TextColor == Color.AliceBlue) StartLabel2.TextColor = Color.Green;
+            else StartLabel2.TextColor = Color.AliceBlue;
         }
     }
 }
