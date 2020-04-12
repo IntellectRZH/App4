@@ -10,11 +10,11 @@
             <StackLayout Orientation="Horizontal">
                 <!-- Place new controls here -->
                 <Label Text="Welcome to Xamarin.Forms!"
-                FontSize="24"
-                TextColor="Black"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="FillAndExpand" />
-        </StackLayout>
+                    FontSize="24"
+                    TextColor="Black"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="FillAndExpand" />
+            </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Button 
                     Text="Нажми на кнопку"                    
@@ -25,6 +25,26 @@
                     HorizontalOptions="FillAndExpand"
                     x:Name="StartButtnForCloseApp"
                     Clicked="StartButtnForCloseApp_Clicked"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <!-- Place new controls here -->
+                <Label  Text="Этот текст находится под кнопкой"
+                        FontSize="24"
+                        TextColor="Black"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="FillAndExpand"
+                        x:Name="StartLabel2"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button 
+                    Text="Изменение второй надписи"                    
+                    FontSize="Body"
+                    TextColor="Aqua"
+                    BackgroundColor="Black"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    x:Name="StartButtnChangeLabel2Text"
+                    Clicked="StartButtnChangeLabel2Text_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ScrollView>

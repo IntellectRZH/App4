@@ -40,5 +40,10 @@ namespace App4
 
         private void StartButtnForCloseApp_Clicked(object sender, EventArgs e) => Environment.Exit(0);
 
+        private void StartButtnChangeLabel2Text_Clicked(object sender, EventArgs e)
+        {
+            StartLabel2.Text = "Измененный текст после нажатия кнопки";
+            StartLabel2.TextColor = Color.Red;
+        }
     }
 }
